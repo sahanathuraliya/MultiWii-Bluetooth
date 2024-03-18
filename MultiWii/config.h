@@ -146,7 +146,7 @@
       //#define CRIUS_AIO_PRO
       //#define DESQUARED6DOFV2GO  // DEsquared V2 with ITG3200 only
       //#define DESQUARED6DOFV4    // DEsquared V4 with MPU6050
-//      #define LADYBIRD
+      //#define LADYBIRD
       //#define MEGAWAP_V2_STD     // available here: http://www.multircshop.com                    <- confirmed by Alex
       //#define MEGAWAP_V2_ADV
       //#define HK_MultiWii_SE_V2  // Hobbyking board with MPU6050 + HMC5883L + BMP085
@@ -208,8 +208,8 @@
       //#define FORCE_ACC_ORIENTATION(X, Y, Z)  {imu.accADC[ROLL]  = X; imu.accADC[PITCH]  = -Y; imu.accADC[YAW]  =  -Z;}
       //#define FORCE_GYRO_ORIENTATION(X, Y, Z) {imu.gyroADC[ROLL] =  Y; imu.gyroADC[PITCH] = X; imu.gyroADC[YAW] = Z;}
       
-//      #define FORCE_ACC_ORIENTATION(X, Y, Z)  {imu.accADC[ROLL]  = Y; imu.accADC[PITCH]  = X; imu.accADC[YAW]  =  -Z;}
-//      #define FORCE_GYRO_ORIENTATION(X, Y, Z) {imu.gyroADC[ROLL] =  X; imu.gyroADC[PITCH] = Y; imu.gyroADC[YAW] = -Z;}
+      //#define FORCE_ACC_ORIENTATION(X, Y, Z)  {imu.accADC[ROLL]  = Y; imu.accADC[PITCH]  = X; imu.accADC[YAW]  =  -Z;}
+      //#define FORCE_GYRO_ORIENTATION(X, Y, Z) {imu.gyroADC[ROLL] =  X; imu.gyroADC[PITCH] = Y; imu.gyroADC[YAW] = -Z;}
       
       //#define FORCE_MAG_ORIENTATION(X, Y, Z)  {imu.magADC[ROLL]  =  X; imu.magADC[PITCH]  =  Y; imu.magADC[YAW]  = Z;}
 
